@@ -1,0 +1,214 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FFF6DC	;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3vh ;
+    margin-left:3vw ;
+    margin-top: 4.5vh;
+}
+.menu {
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5vh;
+    list-style: none;
+}
+.menu1{
+    float: left;
+    list-style: none;
+    margin-top:-7.5vh ;
+    margin-left:52vw ;
+}
+.menu2{
+    float: left;
+    list-style: none;
+    margin-top:-7.5vh ;
+    margin-left:62vw ;
+}
+.menu3{
+    float: left;
+    list-style: none;
+    margin-top:-7.5vh ;
+    margin-left:74vw ;
+}
+.menu4{
+    float: left;
+    list-style: none;
+    margin-top:-7.5vh ;
+    margin-left:86vw ;
+}
+.title{
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:7.5vw ;
+    text-align: center;
+    margin-top:20vh ;
+}
+.subtitle{
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 4vh;
+    text-align: center;
+    margin-top: 2vh;
+}
+.container {
+    position: relative;
+    width: 9vw;
+    height: 9vw;
+    left: 47vw;
+  }
+
+  
+  .chevron {
+    position: absolute;
+    width: 6vw;
+    height: 2vw;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+  }
+  
+  .chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+  }
+  
+  .chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+  }
+  
+  .chevron:before,
+  .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #89A368;
+  }
+  
+  .chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+  }
+  
+  .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+  }
+  
+  @keyframes move {
+    25% {
+      opacity: 1;
+  
+    }
+    33% {
+      opacity: 1;
+      transform: translateY(9vw);
+    }
+    67% {
+      opacity: 1;
+      transform: translateY(10vw);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(11vw) scale3d(0.5, 0.5, 0.5);
+    }
+  }
+#about{
+    background-color: #FFFEF6;
+    border-radius: 2vw;
+    width: 70vw;
+    height:45vh ;
+    margin-top:13vh ;
+    margin-left:15vw ;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+.about-title{
+    width: 13vw;
+        font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:4vh ;
+    margin-top: 36vh;
+    margin-left:2vw ;
+}
+.about-title::before{
+    content: attr(data-en);
+    font-size: 3vh;
+    display: block;
+    color: #89A368;
+}
+.about-title::after{
+    content: '';
+    width:10vw ;
+    display: block;
+    height: 0.3vh;
+    background-color: #89A368;
+}
+.about-main{
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3vh ;
+    text-align: center;
+    margin-top:3vh ;
+    line-height:6vh ;
+}
+.candidate-title{
+    width: 20vw;
+        font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:4vh ;
+    margin-top: 15vh;
+    margin-left:15vw ;
+}
+.candidate-title::before{
+    content: attr(data-en);
+    font-size: 3vh;
+    display: block;
+    color: #89A368;
+}
+.candidate-title::after{
+    content: '';
+    width:16vw ;
+    display: block;
+    height: 0.3vh;
+    background-color: #89A368;
+}
+.candidate-list1-title{
+    width: 13vw;
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3.5vh ;
+    background-color:#89A368 ;
+    padding: 1.2vh 0.5vw;
+    border-radius:1vw ;
+    text-align: center;
+    margin-left:43.5vw ;
+    margin-top:5vh ;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+.candidate-list1-1{
+    background-color: #FFFEF6;
+    border-radius: 2vw;
+    width: 70vw;
+    height:25vh ;
+    margin-top:4vh ;
+    margin-left:15vw ;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
