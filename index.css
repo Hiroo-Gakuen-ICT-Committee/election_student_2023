@@ -206,20 +206,54 @@ a{
 .candidate-list1-1{
     background-color: #FFFEF6;
     border-radius: 2vw;
-    width: 60vw;
+    width: 50vw;
     height:25vh ;
     margin-top:4vh ;
-    margin-left:20vw ;
+    margin-left:25vw ;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }
-.list1-1-picture img{
-    width:10vw ;
+.picture img{
+    width:13vw ;
     margin-top:4.5vh ;
-    margin-left: 5vw;
+    margin-left: 3vw;
 }
-.list1-1-name{
+.subname{
     font-family: maru-maru-gothic-blr-stdn, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size:6vh ;
+    font-size: 4vh;
+    margin-left:18vw ;
+    margin-top:-20vh ;
+}
+.name{
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:7vh ;
+    margin-left:18vw ;
+    margin-top:0.5vh ;
+}
+.border{
+    height: 0.25vh;
+    width: 6vw;
+    margin-left:18.5vw ;
+    margin-top: 2vh;
+    background-color: #89A368;
+}
+.from{
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3vh;
+    margin-left:25vw ;
+    margin-top: -2vh;
+}
+.candidate-list1-2{
+    background-color: #FFFEF6;
+    border-radius: 2vw;
+    width: 50vw;
+    height:25vh ;
+    margin-top:8vh ;
+    margin-left:25vw ;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 }
