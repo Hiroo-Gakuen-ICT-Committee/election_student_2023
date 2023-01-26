@@ -5,7 +5,7 @@ body{
     background-color: #FFF6DC	;
 }
 a{
-    color: black;
+    color: #4D4D4F;
     text-decoration: none;
 }
 .logo{
@@ -15,6 +15,7 @@ a{
     font-size:3vh ;
     margin-left:3vw ;
     margin-top: 4.5vh;
+    color: #4D4D4F;
 }
 .menu {
     font-family: maru-maru-gothic-blr-stdn, sans-serif;
@@ -22,30 +23,35 @@ a{
     font-style: normal;
     font-size: 2.5vh;
     list-style: none;
+    color: #4D4D4F;
 }
 .menu1{
     float: left;
     list-style: none;
     margin-top:-7.5vh ;
     margin-left:52vw ;
+    color: #4D4D4F;
 }
 .menu2{
     float: left;
     list-style: none;
     margin-top:-7.5vh ;
     margin-left:62vw ;
+    color: #4D4D4F;
 }
 .menu3{
     float: left;
     list-style: none;
     margin-top:-7.5vh ;
     margin-left:74vw ;
+    color: #4D4D4F;
 }
 .menu4{
     float: left;
     list-style: none;
     margin-top:-7.5vh ;
     margin-left:86vw ;
+    color: #4D4D4F;
 }
 .title{
     font-family: maru-maru-gothic-blr-stdn, sans-serif;
@@ -54,6 +60,7 @@ a{
     font-size:7.5vw ;
     text-align: center;
     margin-top:20vh ;
+    color: #4D4D4F;
 }
 .subtitle{
     font-family: maru-maru-gothic-blr-stdn, sans-serif;
@@ -62,6 +69,7 @@ a{
     font-size: 4vh;
     text-align: center;
     margin-top: 2vh;
+    color:#4D4D4F;
 }
 .container {
     position: relative;
@@ -144,6 +152,7 @@ a{
     font-size:4vh ;
     margin-top: 36vh;
     margin-left:2vw ;
+    color: #4D4D4F;
 }
 .about-title::before{
     content: attr(data-en);
@@ -166,6 +175,7 @@ a{
     text-align: center;
     margin-top:3vh ;
     line-height:6vh ;
+    color: #4D4D4F;
 }
 .candidate-title{
     width: 20vw;
@@ -175,6 +185,7 @@ a{
     font-size:4vh ;
     margin-top: 15vh;
     margin-left:15vw ;
+    color: #4D4D4F;
 }
 .candidate-title::before{
     content: attr(data-en);
@@ -189,7 +200,7 @@ a{
     height: 0.3vh;
     background-color: #89A368;
 }
-.candidate-list1-title{
+.candidate-list-title{
     width: 13vw;
     font-family: maru-maru-gothic-blr-stdn, sans-serif;
     font-weight: 400;
@@ -202,8 +213,9 @@ a{
     margin-left:43.5vw ;
     margin-top:5vh ;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    color: #4D4D4F;
 }
-.candidate-list1-1{
+.candidate-list{
     background-color: #FFFEF6;
     border-radius: 2vw;
     width: 50vw;
@@ -211,6 +223,7 @@ a{
     margin-top:4vh ;
     margin-left:25vw ;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    color: #4D4D4F;
 }
 .picture img{
     width:13vw ;
@@ -224,6 +237,7 @@ a{
     font-size: 4vh;
     margin-left:18vw ;
     margin-top:-20vh ;
+    color: #4D4D4F;
 }
 .name{
     font-family: maru-maru-gothic-blr-stdn, sans-serif;
@@ -232,6 +246,7 @@ a{
     font-size:7vh ;
     margin-left:18vw ;
     margin-top:0.5vh ;
+    color: #4D4D4F;
 }
 .border{
     height: 0.25vh;
@@ -247,13 +262,89 @@ a{
     font-size: 3vh;
     margin-left:25vw ;
     margin-top: -2vh;
+    color: #4D4D4F;
 }
-.candidate-list1-2{
+.poster-title{
+    width: 20vw;
+        font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:4vh ;
+    margin-top: 15vh;
+    margin-left:15vw ;
+    color: #4D4D4F;
+}
+.poster-title::before{
+    content: attr(data-en);
+    font-size: 3vh;
+    display: block;
+    color: #89A368;
+}
+.poster-title::after{
+    content: '';
+    width:16vw ;
+    display: block;
+    height: 0.3vh;
+    background-color: #89A368;
+}
+.poster1 img{
+    width: 20vw;
+    margin-top:8vh ;
+    margin-left: 15vw;
+    
+}
+.poster2 img{
+    width: 20vw;
+    margin-left: 7vw;
+    margin-top: 8vh;
+}
+.poster3 img{
+    width: 20vw;
+    margin-left: 7vw;
+    margin-top: 8vh;
+}
+.poster-image{
+    display: flex;
+}
+.video-title{
+    width: 20vw;
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:4vh ;
+    margin-top: 15vh;
+    margin-left:2vw ;
+    color: #4D4D4F;
+}
+.video-title::before{
+    content: attr(data-en);
+    font-size: 3vh;
+    display: block;
+    color: #89A368;
+}
+.video-title::after{
+    content: '';
+    width:16vw ;
+    display: block;
+    height: 0.3vh;
+    background-color: #89A368;
+}
+#video{
     background-color: #FFFEF6;
     border-radius: 2vw;
-    width: 50vw;
-    height:25vh ;
-    margin-top:8vh ;
-    margin-left:25vw ;
+    width: 70vw;
+    height:45vh ;
+    margin-top:13vh ;
+    margin-left:15vw ;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+.video-main{
+    font-family: maru-maru-gothic-blr-stdn, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3vh ;
+    text-align: center;
+    margin-top:3vh ;
+    line-height:6vh ;
+    color: #4D4D4F;
 }
