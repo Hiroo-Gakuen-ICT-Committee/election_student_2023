@@ -348,3 +348,188 @@ a{
     line-height:6vh ;
     color: #4D4D4F;
 }
+@media screen and (max-width:860px){
+.logo{
+    font-size:2vh ;
+    margin-top: 3vh;
+}
+.menu{
+    font-size: 2vh;
+}
+.menu1{
+    margin-left:27vw ;
+    margin-top: -6.5vh;
+}
+.menu2{
+    margin-left:42vw ;
+    margin-top: -6.5vh;
+}
+.menu3{
+    margin-left:62vw ;
+    margin-top: -6.5vh;
+}
+.menu4{
+    margin-left:82vw ;
+    margin-top: -6.5vh;
+}
+.title{
+    font-size:10vw ;
+}
+.subtitle{
+    font-size:3.5vh ;
+}
+.container{
+    width: 15vw;
+    height: 15vw;
+    left:42.5vw ;
+}
+.chevron{
+    width:15vw ;
+    height:5vw ;
+}
+#about{
+    width: 80vw;
+    margin-left: 10vw;
+}
+.about-title{
+    width: 25vw;
+}
+.about-title::after{
+    width:25vw ;
+}
+.about-main{
+    font-size: 2vh;
+    line-height: 5vh;
+}
+.candidate-title{
+    width: 40vw;
+}
+.candidate-title::after{
+    width: 40vw;
+}
+.candidate-list-title{
+    width: 30vw;
+    margin-left:35vw ;
+}
+.candidate-list{
+    width:70vw ;
+    margin-left: 15vw;
+    height:20vh ;
+}
+.picture img{
+    width:20vw ;
+}
+.subname{
+    font-size: 3vh;
+    margin-top: -15vh;
+    margin-left: 22vw;
+}
+.name{
+    font-size: 6vh;
+    margin-left: 22vw;
+}
+.border{
+    margin-left: 21.5vw;
+}
+.from{
+    margin-left: 28vw;
+}
+.poster-title{
+    width: 35vw;
+}
+.poster-title::after{
+    width: 35vw;
+}
+#video{
+    width: 80vw;
+    margin-left: 10vw;
+}
+.video-title{
+    width: 30vw;
+}
+.video-title::after{
+    width: 30vw;
+}
+.video-main{
+    font-size: 2vh;
+    line-height: 5vh;
+}
+}
+@media screen and (max-width:520px) {
+    .logo{
+        display: none;
+    }
+    .menu{
+        font-size: 1.5vh;
+        margin-top: 5vh;
+    }
+    .menu1{
+        margin-left: -10vw;
+        margin-top: -15vh;
+    }
+    .menu2{
+        margin-left: 12.5vw;
+        margin-top: -15vh;
+    }
+    .menu3{
+        margin-left: 42.5vw;
+        margin-top: -15vh;
+    }
+    .menu4{
+        margin-left:70vw;
+        margin-top: -15vh;
+    }
+    .about-title{
+        width: 35vw;
+    }
+    .about-title::after{
+        width: 35vw;
+    }
+    #about{
+        width: 92vw;
+        margin-left: 4vw;
+        height:40vh ;
+    }
+    .about-main{
+        white-space: nowrap;
+        line-height: 4vh;
+        font-size: 1.5vh;
+    }
+    .candidate-title{
+        width: 55vw;
+        margin-left: 10vw;
+    }
+    .candidate-title::after{
+        width: 50vw;
+    }
+    .candidate-list-title{
+        width: 50vw;
+        margin-left: 25vw;
+    }
+    .subname{
+        margin-top: -12vh;
+        white-space: nowrap;
+    }
+    .name{
+        white-space: nowrap;
+    }
+    .candidate-list{
+        width:80vw ;
+        margin-left: 10vw;
+    }
+    .poster-title{
+        width: 45vw;
+    }
+    .poster-title::after{
+        width: 45vw;
+    }
+    .video-title{
+        width: 45vw;
+    }
+    .video-title::after{
+        width: 45vw;
+    }
+    .video-main{
+        font-size: 1.5vh;
+    }
+}
